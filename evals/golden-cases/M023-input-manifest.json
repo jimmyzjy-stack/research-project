@@ -1,0 +1,37 @@
+{
+  "protocol": "M023 historical early-input replay",
+  "method_sha256": "e42c0b19385295a20804be7a38b0d4a530c28f9c6416367324d4a2cd5495b31c",
+  "reference_sha256": "c19b57782e22d34a08b8a7f6f1537ae8e24dcbc70f2dddcb9be5793d5322004d",
+  "cases": [
+    {
+      "id": "hqg-timee-2024",
+      "cutoff_basis": "2024年12月底的立项文件版本。文件名为241223，但正文包含12月27日观察，不能视为12月23日当天信息集。文中2025年前瞻是当时预测，不是已实现。",
+      "text_source": "framework/materials/M010/reading/S004.txt",
+      "docx_source": "framework/materials/M010/originals/part1/241223_Timee 立项.docx",
+      "input_sha256": "085d65e862c106aeea1b9bf39b6229d911a15af8ce7eb9289c87675d9cee1846",
+      "original_docx_sha256": "3430a21d5663251430e42e027004ee4aa0b12f39aeca67372792d8d889bebde8",
+      "copied_docx_sha256": "3430a21d5663251430e42e027004ee4aa0b12f39aeca67372792d8d889bebde8",
+      "later_materials_supplied": false
+    },
+    {
+      "id": "hqg-fsy-2023",
+      "cutoff_basis": "2023年2月立项文件版本；精确形成/发布日未独立核验。文中后续年度预测仅是当时预测。",
+      "text_source": "framework/materials/M019/reading/S002.txt",
+      "docx_source": "framework/materials/M019/originals/230214 福寿园立项.docx",
+      "input_sha256": "c9022191ced74904be4d1170415005837ce1395622f2f41286532811f564d57b",
+      "original_docx_sha256": "19cf81a5519bd0461928eddd73a77a572a065aa86742ee0eb04876acfb7eaafd",
+      "copied_docx_sha256": "19cf81a5519bd0461928eddd73a77a572a065aa86742ee0eb04876acfb7eaafd",
+      "later_materials_supplied": false
+    },
+    {
+      "id": "hqg-spglobal-2025",
+      "cutoff_basis": "2025年2月立项文件版本；精确形成/发布日未独立核验。本文是历史研究者整理，不是本轮新核实的财报。",
+      "text_source": "framework/materials/M019/reading/S001.txt",
+      "docx_source": "framework/materials/M019/originals/20250216_标普全球.docx",
+      "input_sha256": "35c76e46d71d582aeb4eafdaa3d38c5edcb93911f64255e9a4a88385467a45be",
+      "original_docx_sha256": "e09b11ef7769a54e7ccd9dd3c9d901eece8c1b7c4bf16b8713d3ca3f69a3256c",
+      "copied_docx_sha256": "e09b11ef7769a54e7ccd9dd3c9d901eece8c1b7c4bf16b8713d3ca3f69a3256c",
+      "later_materials_supplied": false
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "repository": "jimmyzjy-stack/research-project",
+  "branch": "main",
+  "remote_visibility_checked": "public",
+  "prior_local_commit_count": 0,
+  "prior_tracked_file_count": 0,
+  "prior_remote_refs": [],
+  "existing_files_included_count": 147,
+  "existing_files_excluded_count": 279,
+  "included_existing_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 52,
+      "sha256": "bff24cdba0aee976c860ca529a32588bc73d546d4cac6866f2b0f69d2de3489f"
+    },
+    {
+      "path": "AGENTS.candidate.md",
+      "bytes": 9857,
+      "sha256": "0b0f43d60091c2b370b6598c6e16780271682f8738db91bf1abd8b37d24ee966"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2783,
+      "sha256": "7ab2d94f69390c83e8334fc2e42dd297d3088dd628985a1eea36ab3d0d21e516"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6774,
+      "sha256": "9262e1fb6c95520d9bb5d8caa17852f7c5cfb5c0148aaf97d5a4a76916794dd0"
+    },
+    {
+      "path": "architecture-alignment.md",
+      "bytes": 57120,
+      "sha256": "00898f7aaf60b72f7af88bfd6699412c620c6156bfea0e77bcee8facdb761ec3"
+    },
+    {
+      "path": "casebook/CASE001-phun-event-conditions-and-timing.md",
+      "bytes": 3771,
+      "sha256": "444c80a21ce7d0581b12166a53cf3f7eb684ef9807eaa8b15c15718cd2633f1a"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/README.md",
+      "bytes": 5873,
+      "sha256": "9f3492d29958ff46adb6bbc027eec87ab01ac2aafd813b35ce985242c3981ff4"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/assumption_conflicts.md",
+      "bytes": 7375,
+      "sha256": "be802a5760ff5feeffe9260923cd2fa92eaa8dee15478d118b11d6e2a1ff715f"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/harness_regression_tests.md",
+      "bytes": 8289,
+      "sha256": "a67a4ce286d8a04446767d6f07f1087f63889f90e9fb168887aa34ebe4aa558c"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/investor_method_with_examples.md",
+      "bytes": 13766,
+      "sha256": "f0c139224db9b787690f6bb31e90e5c1fe9cd85fd947777c8c9a8ee81efafb5b"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/timee_evidence_graph.jsonl",
+      "bytes": 66923,
+      "sha256": "a992fc3a5eb8854bea2adec7acc557f9c3be96671ac170da7c7ae11b901ee026"
+    },
+    {
+      "path": "casebook/CASE002-M011-review/timee_thesis_current_state.md",
+      "bytes": 4911,
+      "sha256": "1b95f5f91c7a08fee0f08da52af5bff59dfae97637a773a4ac68d0e93b98c0f0"
+    },
+    {
+      "path": "casebook/CASE002-timee-research-process.md",
+      "bytes": 10207,
+      "sha256": "4193e1fd441e4b2833fb859208ac8f53bd1491f6ef8254f8dcf8c12062c4bcc8"
+    },
+    {
+      "path": "casebook/CASE002-timee-source-audit.md",
+      "bytes": 10192,
+      "sha256": "14b48de5d6f32b8ffb386ba89e5dc8a20a4bb05fd455d6533abff4663a2d02eb"
+    },
+    {
+      "path": "casebook/CASE003-M018-source-review.md",
+      "bytes": 11253,
+      "sha256": "2f58cf9e9b2dd610a0ef65c35bcb6d8b778cf05b100c97ed3d04444bbfc0e6ce"
+    },
+    {
+      "path": "casebook/CASE003-moutai-demand-and-pricing.md",
+      "bytes": 14291,
+      "sha256": "eedf220a8c99c580fb94b577f4bb80bcf0fcd4713230b1ec053769fc484a2aff"
+    },
+    {
+      "path": "casebook/CASE004-kaspi-initiation-and-moat.md",
+      "bytes": 8260,
+      "sha256": "3b501ee1eda38042f6aab337631d999ed5d08a6b76033735cb3fb6b936344e27"
+    },
+    {
+      "path": "casebook/CASE005-spglobal-initiation.md",
+      "bytes": 5651,
+      "sha256": "51d38b9d7ef979c190d75a2881aea59338f2cf90e6d1c2059b6f4e0e20679467"
+    },
+    {
+      "path": "casebook/CASE006-fushouyuan-pricing-policy-pass.md",
+      "bytes": 7848,
+      "sha256": "a114bc5dc45a8f6d1c9dc931c22844fca1dad59d6c7e62b748ff70b8076954dc"
+    },
+    {
+      "path": "casebook/M017-initiation-module-reference.md",
+      "bytes": 6548,
+      "sha256": "807a3f70c4a52f398080c953013b7f79c1e8d04323f5b93aed340d4d2d9fb7f7"
+    },
+    {
+      "path": "casebook/M019-initiation-and-research-exit.md",
+      "bytes": 4552,
+      "sha256": "e34ef5b60ca802e2a7cdfa6caee7162dd6f125eea486fdb9775ddca878ff1a63"
+    },
+    {
+      "path": "casebook/README.md",
+      "bytes": 3506,
+      "sha256": "dccee3fe95d20297861e40a8bb3b342a7ece70ff60e21a764ae8e9e993f4a35c"
+    },
+    {
+      "path": "casebook/_template.md",
+      "bytes": 2302,
+      "sha256": "09b103c8736b2da1baf0a6d09843d095e96f923dd03a5f47f68b25f0862dce54"
+    },
+    {
+      "path": "companies/README.md",
+      "bytes": 1684,
+      "sha256": "6f7dba0cf3cac4e4d0b6abc147ab62cc0e13c98739a6b0799a66b475c464b87c"
+    },
+    {
+      "path": "companies/_template/evidence/index.md",
+      "bytes": 1225,
+      "sha256": "72123d70227ed7b4b179a6697880ff1c345eb505d715128395bd2b75f23c7568"
+    },
+    {
+      "path": "companies/_template/research.md",
+      "bytes": 2856,
+      "sha256": "961237d87c8c01894c750fafdea6d34bdf1d6183d82b7c620727f18d07160992"
+    },
+    {
+      "path": "companies/_template/thesis.md",
+      "bytes": 1884,
+      "sha256": "5b6e6b8db3bef9e234f2eded22756ae4adae33be99b9cc93c724339cc18c8cea"
+    },
+    {
+      "path": "companies/_template/updates/README.md",
+      "bytes": 949,
+      "sha256": "e0b85cacd15bf8369b40cb3f30d61fb1530ecc606069766dd6a23cb30d151221"
+    },
+    {
+      "path": "companies/_template/valuation.md",
+      "bytes": 1665,
+      "sha256": "f5e1e56ba18427419b35a46eebd158e806fd717cb1dde11022d6a9bbfd5a535f"
+    },
+    {
+      "path": "evals/README.md",
+      "bytes": 5467,
+      "sha256": "b3821244f0a28791906ac20c198bae246f5f56aca5b5532303fd612d2242c12b"
+    },
+    {
+      "path": "evals/behavioral-eval-expectations.md",
+      "bytes": 38703,
+      "sha256": "80c2ab2c7e478dcea40a879b852edd0ec57ae9aca6bfcc43f1e0f83aca80eea8"
+    },
+    {
+      "path": "evals/check_workspace.py",
+      "bytes": 8216,
+      "sha256": "0d01a3d924ab0877e907afd7ed5f0cb85cd3e9d4da6fd17dd00986915771878d"
+    },
+    {
+      "path": "evals/decision-consistency.md",
+      "bytes": 2008,
+      "sha256": "d1c20817f3b0ec91d9d0283024ffd7f2024243bbd87b74f94d713b3ec81eb00f"
+    },
+    {
+      "path": "evals/framework-fidelity.md",
+      "bytes": 8789,
+      "sha256": "73d9b59093a8ff2b02ccdcd4bf7dabd71e663ed7616de088391f4afe06765c84"
+    },
+    {
+      "path": "evals/golden-cases/M023-input-manifest.json",
+      "bytes": 2334,
+      "sha256": "5741b96d9011aa1a1e1618099e694d9517191e1b1af295ca361783619c32801d"
+    },
+    {
+      "path": "evals/golden-cases/hqg-fsy-2023/input.md",
+      "bytes": 34558,
+      "sha256": "c9022191ced74904be4d1170415005837ce1395622f2f41286532811f564d57b"
+    },
+    {
+      "path": "evals/golden-cases/hqg-planning-update-synthetic.md",
+      "bytes": 1612,
+      "sha256": "e2d5d4b7eb43c35c5129e03afe612d7573cbbd10e02c24464da0db2333d163c0"
+    },
+    {
+      "path": "evals/golden-cases/hqg-spglobal-2025/input.md",
+      "bytes": 26409,
+      "sha256": "35c76e46d71d582aeb4eafdaa3d38c5edcb93911f64255e9a4a88385467a45be"
+    },
+    {
+      "path": "evals/golden-cases/hqg-timee-2024/input.md",
+      "bytes": 36343,
+      "sha256": "085d65e862c106aeea1b9bf39b6229d911a15af8ce7eb9289c87675d9cee1846"
+    },
+    {
+      "path": "evals/golden-cases/question-generation-method.md",
+      "bytes": 2867,
+      "sha256": "e42c0b19385295a20804be7a38b0d4a530c28f9c6416367324d4a2cd5495b31c"
+    },
+    {
+      "path": "evals/golden-cases/reference-not-for-runner.md",
+      "bytes": 4169,
+      "sha256": "c19b57782e22d34a08b8a7f6f1537ae8e24dcbc70f2dddcb9be5793d5322004d"
+    },
+    {
+      "path": "evals/historical-question-generation.md",
+      "bytes": 7787,
+      "sha256": "d7782cb10bfc6e51da44e80f62a65941100c4b4dd4f4fc5b1ccc01f58e6c13e3"
+    },
+    {
+      "path": "evals/research-quality.md",
+      "bytes": 3547,
+      "sha256": "459a89fef352198ee85f29a60d201919a8fee21384b4a79ab1f51849a143e7b8"
+    },
+    {
+      "path": "evals/runs/2026-10-31-gmo-initiation-source-plan.md",
+      "bytes": 11031,
+      "sha256": "3a463cfe6c9ae3b3f16241b5d2a47fbb186a306528e52559cccacf81c6cc94d2"
+    },
+    {
+      "path": "evals/runs/2026-10-31-gmo-network-recheck.md",
+      "bytes": 5344,
+      "sha256": "98735673083d0fb7fe398e921cb6407d4375f6a45414aa5e2e8538d4c1909d2b"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-fsy-first.md",
+      "bytes": 27659,
+      "sha256": "0fb7dff479e68e475e9d31b12f7d904b501c8e57a0b9ac459481c9cb66e51600"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-main-known-context.md",
+      "bytes": 4923,
+      "sha256": "8dbed02f079c4972932607108367bdbaf1a14e76026d8d240bee0d7bc3f0d3da"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-output-manifest.json",
+      "bytes": 1850,
+      "sha256": "4df486ea4e7cbd0d2c06c9aee9e55459ed9d12f0ee556c00ae49d088a24374d1"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-planning-cycle-synthetic.md",
+      "bytes": 3270,
+      "sha256": "235bad6084d259979394262048dad92b7cd38a90152b891272b1c7f2c3688f16"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-spglobal-first.md",
+      "bytes": 24242,
+      "sha256": "14ed2e6c7a2e3380a4db72815f53a217eb0af410963937c66f6f3aaa836a4a50"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-timee-first.md",
+      "bytes": 34034,
+      "sha256": "7d13edcba50dc74ec52ad0c1e2828bad7ea4bc3dad44190fc90e28719de06c10"
+    },
+    {
+      "path": "evals/runs/2026-10-31-hqg-timee-repeat-first.md",
+      "bytes": 29147,
+      "sha256": "8941ada76e389d84e7134ba2a989d65e8824c64385cbb9a04e9b2961d8ba6607"
+    },
+    {
+      "path": "evals/runs/2026-10-31-initiation-question-generation-review.md",
+      "bytes": 13319,
+      "sha256": "74a61bf5bf2e37c0ac08ea668e319aec26683e181c4e661ed8c5a68f8aa05819"
+    },
+    {
+      "path": "evals/runs/2026-10-31-kaspi-2025-capital-followup.md",
+      "bytes": 8026,
+      "sha256": "2a2a96f7319091f95e1839763cf500f1e38868e363266058eecd46929829c512"
+    },
+    {
+      "path": "evals/runs/2026-10-31-kaspi-2025-main.md",
+      "bytes": 11272,
+      "sha256": "27f4f9d26b25973c99ce78f22664c5ef13ed9def14bd235c2ad9407c126a4642"
+    },
+    {
+      "path": "evals/runs/2026-10-31-main-behavioral-eval.md",
+      "bytes": 7883,
+      "sha256": "701574fdf44106286a4bc81a054df8177f1a56a8cb0d12deb237e305c75ad678"
+    },
+    {
+      "path": "evals/runs/2026-10-31-main-responses.md",
+      "bytes": 18667,
+      "sha256": "b2f23b61e2073c59cfa70bf5ef7c398c8157983bf3cb22c5f939e0c1cb896880"
+    },
+    {
+      "path": "evals/runs/2026-10-31-targeted-recheck.md",
+      "bytes": 4053,
+      "sha256": "25c861420864790e270f98560e9482b326425dcc9364d6bddb3f6b54416ca772"
+    },
+    {
+      "path": "evals/runs/2026-11-01-ctrip-china-hotel-moat/README.md",
+      "bytes": 15732,
+      "sha256": "f1918577e8e2c50a31036a428ff83c5c8eb63dd2be4d517e62dc14d2753f3fec"
+    },
+    {
+      "path": "evals/runs/2026-11-01-ctrip-china-hotel-moat/first-output-sha256.json",
+      "bytes": 282,
+      "sha256": "275860fa6fbc811cc047e6a96c33d5794182115a4dd54db8dd8b343eb24b8fb4"
+    },
+    {
+      "path": "evals/runs/2026-11-01-ctrip-china-hotel-moat/pre-search-questions.md",
+      "bytes": 837,
+      "sha256": "cdd2bbdc6c54224be437690c762b69eb834cbb28d15fc84d25aa654c2f6d6c52"
+    },
+    {
+      "path": "evals/runs/2026-11-01-ctrip-china-hotel-moat/sources/source-index.json",
+      "bytes": 1755,
+      "sha256": "b94f470f2fbfc241f45aba423088fb0ddc3703ce198623c2cdaa5498b63243bf"
+    },
+    {
+      "path": "framework/README.md",
+      "bytes": 7185,
+      "sha256": "93e2a1109985e571f1911f40d05a6eaa984df10d0804c187e7fe75404546486f"
+    },
+    {
+      "path": "framework/agents-candidate-review.md",
+      "bytes": 11951,
+      "sha256": "548aad744439ce30a07eacb635dcb613a895dd9e55883cd19516112f70b28a12"
+    },
+    {
+      "path": "framework/agents-extraction.md",
+      "bytes": 3482,
+      "sha256": "7ddc9960bd65f4866d7d8b68d680428e982684790db612e8ed0c830e6547190d"
+    },
+    {
+      "path": "framework/business-analysis.md",
+      "bytes": 946,
+      "sha256": "ecec8e3bad4caaf80ad5c0f4f4118c2162162c9416b304e6224c0c2b1c3a3026"
+    },
+    {
+      "path": "framework/business-quality-and-financials.md",
+      "bytes": 1721,
+      "sha256": "c64334ad9bfddc494e6b879a94a43b20ee80c685f4490e6dba389a6d2a24d487"
+    },
+    {
+      "path": "framework/business-quality.md",
+      "bytes": 13340,
+      "sha256": "9b0913617ccf61ed86df422881942b1a9e574309f564ce25c7330af895a59f14"
+    },
+    {
+      "path": "framework/changes/M003-vs-M002.md",
+      "bytes": 5730,
+      "sha256": "a19283f51a65e065b26656083815b72ea2421c8a226441090fa85eab85029a35"
+    },
+    {
+      "path": "framework/changes/M004-T001-T003.md",
+      "bytes": 3946,
+      "sha256": "d0095492867dca00741fc7bb420b0d5a2d26e7b79308896320dcddb03ca7048f"
+    },
+    {
+      "path": "framework/changes/M005-alignment.md",
+      "bytes": 3629,
+      "sha256": "4835b0bfd5df5b24602a911d24abdaf8bfdcdd75ed835939c5cf9209b4f9b67b"
+    },
+    {
+      "path": "framework/changes/M006-U007-U017.md",
+      "bytes": 3634,
+      "sha256": "859a896c398967f9481bd435776901abf61ffcab78e5f7923440cd3c324216a2"
+    },
+    {
+      "path": "framework/changes/M007-U011.md",
+      "bytes": 4109,
+      "sha256": "ecf276338931a2c9f73c2fe77a8e2ecfe8d6f370d12d5afdecb67a0f07f69141"
+    },
+    {
+      "path": "framework/changes/M008-opportunity-priority.md",
+      "bytes": 3574,
+      "sha256": "3d9b011f6e7ad7b96b506486f47f5baf807f8d6e15af100e8e65e06b2952d4fb"
+    },
+    {
+      "path": "framework/changes/M009-timee-intake.md",
+      "bytes": 2590,
+      "sha256": "5112f4a5d79afc6641accd03427d0047f03f46a562043293b4a76de7232512f6"
+    },
+    {
+      "path": "framework/changes/M010-timee-originals.md",
+      "bytes": 4314,
+      "sha256": "900bcfa872f29c82519601e213c28457f22ffb3bcb8949e98b357ccad2594129"
+    },
+    {
+      "path": "framework/changes/M012-framework-review-feedback.md",
+      "bytes": 4613,
+      "sha256": "19d945247a0639530e1a9e818b03fa7d82c818fece59342f4feb56bcdabc37d9"
+    },
+    {
+      "path": "framework/changes/M013-research-stages-and-review.md",
+      "bytes": 2560,
+      "sha256": "f2f8bda0729d88ca7b855181e3a75b1f0e6bfd149b6b74644ed55322a920d1e5"
+    },
+    {
+      "path": "framework/changes/M014-architecture-alignment.md",
+      "bytes": 2546,
+      "sha256": "e875ffb21792a46a9b54c6d83d56a2cfb2508ee73ff4cbec9ebf1cbe7788d23b"
+    },
+    {
+      "path": "framework/changes/M015-thesis-status-labels.md",
+      "bytes": 1036,
+      "sha256": "32625a3128c5f56a14cfbe3603b71f79cc59e8971a4e6bd51f0a375732d4240e"
+    },
+    {
+      "path": "framework/changes/M016-architecture-feedback-and-eval.md",
+      "bytes": 2919,
+      "sha256": "b1577bf8c0976357df280f83b29bd967a1a10a3be13903ec3e8ece1030fb52d9"
+    },
+    {
+      "path": "framework/changes/M017-moutai-kaspi-intake.md",
+      "bytes": 2659,
+      "sha256": "fb5af50ecb2a6d58d6e9a578b934fbe9d8a81b069410bec17a2674e116750409"
+    },
+    {
+      "path": "framework/changes/M018-moutai-originals.md",
+      "bytes": 2323,
+      "sha256": "7a4f420835de47e49a0d8fc39d3283d4d393b116f4bb9f1fbb79d7d3a522ccc9"
+    },
+    {
+      "path": "framework/changes/M019-spglobal-fushouyuan.md",
+      "bytes": 2266,
+      "sha256": "d227f94f896a82302eff8400d5f55df5246339d6bd07c48e96a164af15e6936a"
+    },
+    {
+      "path": "framework/drafts/initial-scaffold.md",
+      "bytes": 2647,
+      "sha256": "a2794c42b74ef60efbb6bfeb43e3140eb0fc9e7ff8aa27b6985ae7536e1970cc"
+    },
+    {
+      "path": "framework/evidence-standards.md",
+      "bytes": 1793,
+      "sha256": "7ef846c207487d7c7507df892d40081e45637fcb7d9db8f5456605565a4ffb5f"
+    },
+    {
+      "path": "framework/framework-understanding-review.md",
+      "bytes": 28470,
+      "sha256": "cfea4416f56bc1c1ad41c9ed5205c93942632e136328f7dd662eecfca42fde37"
+    },
+    {
+      "path": "framework/industry-analysis.md",
+      "bytes": 1045,
+      "sha256": "a54af27bcd34402e15a4e2ac092a6f3a081160cbd14b1bab8410855b1fb88439"
+    },
+    {
+      "path": "framework/initiation-and-question-generation.md",
+      "bytes": 11839,
+      "sha256": "82ac5c55df9ac889bdcc7f7f40b33a6f46f80f406f275b3709a08bc972b1dc8e"
+    },
+    {
+      "path": "framework/investment-philosophy.md",
+      "bytes": 4809,
+      "sha256": "fe5938843edce0440b16814c5af96255fccb5e8db42c7a4ba1d8b303a5df8132"
+    },
+    {
+      "path": "framework/long-form-investment-framework.md",
+      "bytes": 32279,
+      "sha256": "2341e0e58b811b9bb4e31f8e3d940bd0e2b32bfce581e4edaa4d9cde47846cfb"
+    },
+    {
+      "path": "framework/management-and-governance.md",
+      "bytes": 994,
+      "sha256": "e9d96020c4ec8ad8d535b400dfc12643aa7bd1aa2a1382aa23ba7f7814405b41"
+    },
+    {
+      "path": "framework/management-capital-allocation.md",
+      "bytes": 13562,
+      "sha256": "c10c3798c2a5f2e445fea911cdba0013882a9529f06c30c338ce2320b98a03e6"
+    },
+    {
+      "path": "framework/materials/261020 AI 投资理念.docx",
+      "bytes": 32275,
+      "sha256": "97efe8f802bfdd9b616956d69f444b0635a34638ce5d7296c84622a317ae4e0e"
+    },
+    {
+      "path": "framework/materials/M001-2026-10-10-framework-method.md",
+      "bytes": 2927,
+      "sha256": "d892f66d89309f91d14fc48dc0b9d47c2f2bde6505e1f8640fb446149cc10266"
+    },
+    {
+      "path": "framework/materials/M002-2026-10-20-investment-philosophy.md",
+      "bytes": 34324,
+      "sha256": "17db34d6bf9c21621bbde212c23a01cc9a171b2d57e00ffeb849e4d1eced1467"
+    },
+    {
+      "path": "framework/materials/M003-2026-10-21-investment-philosophy.md",
+      "bytes": 40113,
+      "sha256": "88bb65eac0e6a4cae05cff024d32e679bf91640e7ad4bda2e0e196298be8fa53"
+    },
+    {
+      "path": "framework/materials/M003/261020 AI 投资理念.docx",
+      "bytes": 37122,
+      "sha256": "bbaca6f7152d46fd637084e6431a8633635911afdac777a2f1934aeb0547273d"
+    },
+    {
+      "path": "framework/materials/M004-2026-10-21-T001-T003.md",
+      "bytes": 3024,
+      "sha256": "136855c30464c8503f25efa719b02eef841ce6151611f9194b928d3d2b66f602"
+    },
+    {
+      "path": "framework/materials/M005-2026-10-22-T004-T006-T007-U001-U002.md",
+      "bytes": 5163,
+      "sha256": "ecbdfff83b2c611fcbb9470aa19a007cf984195106198409a572f9918c43443e"
+    },
+    {
+      "path": "framework/materials/M006-2026-10-29-U007-U017.md",
+      "bytes": 2438,
+      "sha256": "054ce0ce855ec23ddf32b357159febe50bb5e30e8d2e46a1c5f7c4a7e4ad35ce"
+    },
+    {
+      "path": "framework/materials/M007-2026-10-29-U011.md",
+      "bytes": 3907,
+      "sha256": "459e03040dad32a18ce651a7e983cfae7c167ea7b3a881e73de76e567c7a8ba7"
+    },
+    {
+      "path": "framework/materials/M008-2026-10-29-opportunity-priority.md",
+      "bytes": 3436,
+      "sha256": "de160e2b2185e2658a0244db6bc153e06b8d4d91f6ad27c65d380b7425050d81"
+    },
+    {
+      "path": "framework/materials/M009-2026-10-30-timee-research-intake.md",
+      "bytes": 4197,
+      "sha256": "4875fa933e1a309190c6d82857173b4848826ed0347acb2e6573354405333fc1"
+    },
+    {
+      "path": "framework/materials/M010-2026-10-30-timee-originals.md",
+      "bytes": 6185,
+      "sha256": "1540901ba12cc752b4025d47b062724bd3269c2f53823ba98aaecd91af7f7478"
+    },
+    {
+      "path": "framework/materials/M011-2026-10-30-timee-process-archive.md",
+      "bytes": 2534,
+      "sha256": "d7c0d13ea59254430673f032a32c8c156556a9b6025008f9f2f1e9ce4b4c243e"
+    },
+    {
+      "path": "framework/materials/M012-2026-10-30-framework-review-feedback.md",
+      "bytes": 9294,
+      "sha256": "19099d8fc3b50b686d55f25916d11d9f04fb0cd63a7e2dd5ba1d476918b7e5d3"
+    },
+    {
+      "path": "framework/materials/M013-2026-10-30-research-stages-and-review.md",
+      "bytes": 2929,
+      "sha256": "e7d2f414b4d91457a4929dba6e6ee68b19e76d1f2046be3e1ce824fa05c1842f"
+    },
+    {
+      "path": "framework/materials/M014-2026-10-30-architecture-design-request.md",
+      "bytes": 5318,
+      "sha256": "a201f8ecf60e01270ce9b822b9408bdc6bcc8d9c1227c7ca790ac0e8bcb3249c"
+    },
+    {
+      "path": "framework/materials/M015-2026-10-30-thesis-status-labels.md",
+      "bytes": 632,
+      "sha256": "cff226d0854a8d72183ffd6136e18f1fcf8666ae4cd158ca31124eb7c779c5a7"
+    },
+    {
+      "path": "framework/materials/M016-2026-10-31-architecture-feedback.md",
+      "bytes": 5963,
+      "sha256": "baf0101a028b970c62fbef059022f60c7e66ad432f81bab91c221e5b716c7898"
+    },
+    {
+      "path": "framework/materials/M017-2026-10-31-moutai-kaspi-intake.md",
+      "bytes": 2655,
+      "sha256": "531b2504fc62c4677529983c06a2ca4153cbbf667adeac268c52a98ed7326b51"
+    },
+    {
+      "path": "framework/materials/M018-2026-10-31-moutai-originals.md",
+      "bytes": 2028,
+      "sha256": "b87e50f4ce7b1949d3cdace0898d0c6047f13419f8952411110122bea5080423"
+    },
+    {
+      "path": "framework/materials/M019-2026-10-31-spglobal-fushouyuan.md",
+      "bytes": 3355,
+      "sha256": "48bff901d922e0cccb0f744ea055b035cd2446264f64c27311312e5dc06e1340"
+    },
+    {
+      "path": "framework/materials/M020-2026-10-31-kaspi-2025-test.md",
+      "bytes": 1840,
+      "sha256": "6c35d4607a8fdbf900741d08d7fed9aaedbe3d9eaa3b592dc1d0d7daa18347a4"
+    },
+    {
+      "path": "framework/materials/M021-2026-10-31-kaspi-price-and-funding.md",
+      "bytes": 1582,
+      "sha256": "f2d19c56531784cd1f4421efd92f80a79e5987529eb6bc94e0a36edabc51260e"
+    },
+    {
+      "path": "framework/materials/M022-2026-10-31-source-evidence-design.md",
+      "bytes": 20615,
+      "sha256": "5881ebbdfc39aad4dc31029dd7a979dec62139b4c00964c07303936d9740e3af"
+    },
+    {
+      "path": "framework/materials/M023-2026-10-31-initiation-question-generation.md",
+      "bytes": 6503,
+      "sha256": "63cc1ce62df56354968ca017cd1334f2e0dbf2d9ab45336dc03827e41b9068b0"
+    },
+    {
+      "path": "framework/materials/M024-2026-10-31-gmo-initiation.md",
+      "bytes": 1154,
+      "sha256": "83c9ef177e0d6da2ff6f93c58311b69cac53bb8e1d861667fa96d9db4ddc4052"
+    },
+    {
+      "path": "framework/materials/README.md",
+      "bytes": 18449,
+      "sha256": "6f1da6b9ad21fb796379f8c50d8a30735414142d079cfff1f060b384bcc1efcb"
+    },
+    {
+      "path": "framework/moat.md",
+      "bytes": 1084,
+      "sha256": "d2dbbc1bc6585e8e29e4547b9f4a3712b275e7622d52bb7cbf4097bafc8abbd8"
+    },
+    {
+      "path": "framework/open-questions.md",
+      "bytes": 24370,
+      "sha256": "dad09624802649fcb663d2021556b8eab13ee519cfd36a86c8ce13a63f446865"
+    },
+    {
+      "path": "framework/opportunity-selection.md",
+      "bytes": 20729,
+      "sha256": "3522215f6f02ec936dacd5eaceb1c91b237a80bef1d481f34da6ea4610cf27dd"
+    },
+    {
+      "path": "framework/position-sizing.md",
+      "bytes": 1130,
+      "sha256": "8317b31d5bfeb351e7e81ebebe5accc62fdc884fff2a27f0a6bbf57b898841cd"
+    },
+    {
+      "path": "framework/research-philosophy.md",
+      "bytes": 26349,
+      "sha256": "6c25e51283d61bcfde5141a2d74ca778ad35a66447e9c81114eb2095ae4fd7a9"
+    },
+    {
+      "path": "framework/risk.md",
+      "bytes": 1037,
+      "sha256": "ee9980bdac1f7e54a18bc5b09ecefb1c8e15c09d625779e48c28ab7b788515a0"
+    },
+    {
+      "path": "framework/source-and-evidence-policy.md",
+      "bytes": 14192,
+      "sha256": "2c152e34780de95ffa0f0f271842ab279c8d5ef938cf7fa11d4f91a29094b78c"
+    },
+    {
+      "path": "framework/valuation-risk.md",
+      "bytes": 19519,
+      "sha256": "15706fd4a084a74137dd9d4d8f879e243261ee6f71ab3fd153a21fedeb8ded23"
+    },
+    {
+      "path": "framework/valuation.md",
+      "bytes": 1519,
+      "sha256": "80802794cbe2234c0e34aa907213aff99afa78c8be05e670699e538095a2ea80"
+    },
+    {
+      "path": "framework/workspace-conventions.md",
+      "bytes": 2250,
+      "sha256": "782d6b579398cb21f333229a430e1aa13e6fb2c52e320f08c816dcc556555062"
+    },
+    {
+      "path": "initiation-and-question-generation-change-report.md",
+      "bytes": 8758,
+      "sha256": "9b0fa4c069dc7c45c788c7b137bd2e30ec83bcb51ecb0738af1be92b969a2d00"
+    },
+    {
+      "path": "investment-ontology.md",
+      "bytes": 25710,
+      "sha256": "fb0d6e4344f15bb5bcf806f87529c46ca40cf1c1450c63e96f67b1c3d5b8fb96"
+    },
+    {
+      "path": "portfolio/README.md",
+      "bytes": 2500,
+      "sha256": "2347464fc5e937f2ac3dfde3218ed87f48c2437ad28a8802ce32f2986f80f10e"
+    },
+    {
+      "path": "portfolio/candidate-box.json",
+      "bytes": 39,
+      "sha256": "f8717070a45b93755ce728fd80950f3c8a2623cdf2efb0af86de2ad19dde9458"
+    },
+    {
+      "path": "portfolio/holdings.json",
+      "bytes": 39,
+      "sha256": "286b00a58f9894c9998e14abbd82b1d2e6132dce22e36b5adfc83f31140e3fe0"
+    },
+    {
+      "path": "portfolio/watchlist.json",
+      "bytes": 39,
+      "sha256": "f8717070a45b93755ce728fd80950f3c8a2623cdf2efb0af86de2ad19dde9458"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 801,
+      "sha256": "849398cf88b3d99a3fa455ff475cc6d100a24897b4303c47b9272df75c621477"
+    },
+    {
+      "path": "skills/README.md",
+      "bytes": 2888,
+      "sha256": "aa1c9160681e0c995b50b2575507006a2ee3e912ed08467b0c68c89fc03a9758"
+    },
+    {
+      "path": "skills/candidate-screen/SKILL.md",
+      "bytes": 4231,
+      "sha256": "af3e9adf5a23546cb2e7ca6142043f24d8bbfe01ab3ae416ed0805f09cd19bfd"
+    },
+    {
+      "path": "skills/deep-dive/SKILL.md",
+      "bytes": 3380,
+      "sha256": "1e22ab44c5031fb586a8c1bba98259002499cfc3ee997b7a70eac36b875965ba"
+    },
+    {
+      "path": "skills/earnings-update/SKILL.md",
+      "bytes": 1909,
+      "sha256": "2a94c51e41aed1f2751cbb9bdd333f9d3361b3644286f71c456cf27132605e72"
+    },
+    {
+      "path": "skills/evidence-update/SKILL.md",
+      "bytes": 3939,
+      "sha256": "c4c7b954baa8cfd55b0cae417986e36c40a7079bd670db9e6531c764496f512d"
+    },
+    {
+      "path": "skills/red-team/SKILL.md",
+      "bytes": 2151,
+      "sha256": "4b1d92bfefad2490bceee8167765809879d462ddf36f9a19c450be9ac9052d53"
+    },
+    {
+      "path": "skills/research-planning/SKILL.md",
+      "bytes": 5985,
+      "sha256": "9c585584e43c712f1ca1d77fe10df3ca0e5667d477b8e163177da4d74ea6d268"
+    },
+    {
+      "path": "skills/thesis-management/SKILL.md",
+      "bytes": 2409,
+      "sha256": "573e6a429f9060819b090e05e1aaad992a96daaf9540e12c262142f2a8c80797"
+    },
+    {
+      "path": "skills/valuation/SKILL.md",
+      "bytes": 2250,
+      "sha256": "225edc679af1f536bb185a08243724df43296c8dab6bcafa0a725c9b68753139"
+    },
+    {
+      "path": "source-and-evidence-architecture-change-report.md",
+      "bytes": 15731,
+      "sha256": "d72c58757f79c11471f59d4f6f8d9d8ee70409b50a6995ba22e452a5956d3523"
+    }
+  ],
+  "exclusion_categories": {
+    "original_historical_case_attachment": 3,
+    "third_party_full_text_available_via_source_url": 4,
+    "local_history_archives_may_bundle_restricted_material": 21,
+    "original_research_conversations_extractions_and_source_inventory": 251
+  },
+  "excluded_scope": [
+    "framework/history/",
+    "framework/materials/M009/",
+    "framework/materials/M010/",
+    "framework/materials/M011/",
+    "framework/materials/M017/",
+    "framework/materials/M018/",
+    "framework/materials/M019/",
+    "evals/golden-cases/**/initiation.docx",
+    "evals/runs/2026-11-01-ctrip-china-hotel-moat/sources/*.pdf",
+    "evals/runs/2026-11-01-ctrip-china-hotel-moat/sources/*.txt"
+  ],
+  "notes": [
+    "Existing judgments and sources were not rewritten.",
+    "Existing temporary AGENTS.md and inactive AGENTS.candidate.md are preserved, not generated or activated.",
+    "Two user-authored original philosophy DOCX versions are included unchanged.",
+    "Excluded files remain in the original workspace. Private file names and interview identities are not listed in this public manifest.",
+    "Source links, hashes and prior eval results are historical records; missing original dependencies do not become reproduced/verified by this commit."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "retrieved_at": "2026-11-01T00:53:19+08:00",
+  "source_count": 2,
+  "note": "Two official annual reports. PDFs and extracted text are same-source formats, not four independent observations. Targeted reading only.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Trip.com Group 2025 Form 20-F",
+      "url": "https://investors.trip.com/system/files-encrypted/nasdaq_kms/assets/2026/04/28/7-57-44/TCOM%2020F_04282026.pdf",
+      "file": "trip-2025-20f.pdf",
+      "pdf_pages_read_via_targeted_excerpts": [
+        6,
+        11,
+        13,
+        20,
+        21,
+        22,
+        65,
+        77,
+        113
+      ],
+      "limitations": "Group-wide disclosures; no independently verified domestic hotel customer retention, take rate, or cash flow. Investigation status is only as of report date; no subsequent status verified."
+    },
+    {
+      "id": "S02",
+      "title": "H World Group 2025 Annual Report",
+      "url": "https://ir.hworld.com/static-files/9826fdb1-3f9d-41a9-8387-e01244c8275f",
+      "file": "hworld-2025.pdf",
+      "pdf_pages_read_via_targeted_excerpts": [
+        25,
+        29,
+        61,
+        72,
+        75,
+        80
+      ],
+      "limitations": "Company disclosure; legacy Huazhu denominator, not entire Chinese hotel industry. Own sales channels do not mean only app bookings or exclusive loyalty."
+    }
+  ],
+  "file_sha256": {
+    "trip-2025-20f.pdf": "2ecd82b351ffff1d2fad5b08825f6053373548c7385b5e291da7fdf8b1c98c74",
+    "trip-2025-20f.txt": "df36c0d65d4029213e29505f3fe35b73360f88a104a0b9abce6c0cb668c467af",
+    "hworld-2025.pdf": "6777c832a0216bab666e1b8b134562c380b3d3427dfa8571967d58bf15066bbb",
+    "hworld-2025.txt": "9e7dc545276bd7fe7d8a0589f2c8d623e6d382cd20cee40c6eb30766f1b47efc"
+  }
+}

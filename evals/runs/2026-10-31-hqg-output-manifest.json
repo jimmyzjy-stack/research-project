@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-31",
+  "input_manifest": "../golden-cases/M023-input-manifest.json",
+  "context": "fork_turns=none, instruction allowlist; shared filesystem, no technical read ACL; prior model knowledge not proven absent",
+  "grading": "Root human review, not independent scoring",
+  "outputs": [
+    {
+      "path": "2026-10-31-hqg-timee-first.md",
+      "sha256": "7d13edcba50dc74ec52ad0c1e2828bad7ea4bc3dad44190fc90e28719de06c10",
+      "bytes": 34034,
+      "complete": true,
+      "later_reference_supplied_before_output": false
+    },
+    {
+      "path": "2026-10-31-hqg-timee-repeat-first.md",
+      "sha256": "8941ada76e389d84e7134ba2a989d65e8824c64385cbb9a04e9b2961d8ba6607",
+      "bytes": 29147,
+      "complete": true,
+      "later_reference_supplied_before_output": false
+    },
+    {
+      "path": "2026-10-31-hqg-fsy-first.md",
+      "sha256": "0fb7dff479e68e475e9d31b12f7d904b501c8e57a0b9ac459481c9cb66e51600",
+      "bytes": 27659,
+      "complete": true,
+      "later_reference_supplied_before_output": false
+    },
+    {
+      "path": "2026-10-31-hqg-spglobal-first.md",
+      "sha256": "14ed2e6c7a2e3380a4db72815f53a217eb0af410963937c66f6f3aaa836a4a50",
+      "bytes": 24242,
+      "complete": true,
+      "later_reference_supplied_before_output": false
+    }
+  ],
+  "resume_note": "Timee repeat role was interrupted by usage limit before final file; same context resumed after user continuation, without references or other outputs; count as one complete repeat, not two.",
+  "synthetic_cycle": {
+    "path": "2026-10-31-hqg-planning-cycle-synthetic.md",
+    "sha256": "235bad6084d259979394262048dad92b7cd38a90152b891272b1c7f2c3688f16",
+    "same_context_as": "2026-10-31-hqg-timee-first.md",
+    "actual_company_facts": false,
+    "counts_as_historical_golden": false,
+    "counts_as_additional_fresh_context": false
+  }
+}
